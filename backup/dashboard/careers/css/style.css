@@ -1,0 +1,156 @@
+body{
+  width: 100%;
+  height: auto;
+  padding: none;
+  margin: none;
+  background: white;
+}
+
+.top_bar_new{
+  width: 100%;
+  height: auto;
+  background: #0089ba;
+  color: white;
+  margin-bottom: 10px;
+}
+
+.top_bar{
+  width:100%;
+  height:45px;
+  background:#2178D4;
+  padding: 5px;
+}
+
+.logo{
+  width: 140px;
+  margin-top: -10px !important;
+}
+
+
+.def-alert1{
+    position: fixed;
+    width:83.5vw;
+    position: fixed;
+    bottom:0;
+    right: 0;
+    background:green;
+    color: white;
+    z-index: 9999;
+    height: 50px;
+    padding: 13px;
+    box-shadow: 0px 0px 7px rgba(0,0,0,0.5);
+}
+.def-alert2{
+     position: fixed;
+    width:83.5vw;
+    position: fixed;
+    bottom:0;
+    right: 0;
+    background:red;
+    color: white;
+    z-index: 9999;
+    height: 50px;
+    padding: 13px;
+    box-shadow: 0px 0px 7px rgba(0,0,0,0.5);
+}
+.reset-anchor{
+  color:inherit;
+  text-decoration: none;
+}
+
+.reset-anchor:hover{
+  color:inherit;
+  text-decoration: none;
+}
+
+
+.folder-container{
+  width: 100px;
+  height: 100px;
+  float: left;
+  /*border: 1px solid black;*/
+  margin-right: 10px;
+  margin-bottom: 15px;
+}
+
+.folder-container p{
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+.folder-container img{
+  width: 60%;
+}
+
+.two-lines{
+   overflow: hidden;
+   text-overflow: ellipsis;
+   display: -webkit-box;
+   -webkit-box-orient: vertical;
+   -webkit-line-clamp: 2;
+   line-height: 1.5;
+   max-height: 1.5*2;
+}
+
+.file-container{
+  width: 200px;
+  height: 120px;
+  border-radius: 5px;
+  border: 1px solid #d3d3d3;
+  float: left;
+  margin-right: 10px;
+}
+
+.file-container p{
+  font-size: 14px;
+}
+.kenz-btn{
+  background:#2f75b5 ;
+  color: white;
+  margin-right: 10px;
+}
+.kenz-color{
+  color:#2f75b5;
+}
+.second-color{
+  color: #C6533B;
+}
+.second-btn{
+  background:#C6533B ;
+  color: white;
+  margin-right: 10px;
+}
+
+.left_nav{
+  margin: 0;
+  padding: 0;
+}
+
+.left_nav li{
+  list-style-type: none;
+}
+
+.left_nav li a{
+  text-decoration: none;
+  color: inherit;
+}
+
+.left_nav li ul{
+  padding: 0;
+  margin: 0;
+  padding-left: 10px;
+}
+
+.accounts_dashboard_box{
+  width: 130px;
+  height: 65px;
+  background: #0089ba;
+  padding: 5px;
+  color: white;
+}
+
+
+
+
+
+
